@@ -10,3 +10,4 @@ To run the code in this project, you'll need the following packages:
 - `torch`
 - `torchvision`
 - `numpy`
+- `tiktoken`
