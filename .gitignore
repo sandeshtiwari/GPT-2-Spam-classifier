@@ -1,0 +1,32 @@
+
+### .gitignore
+
+```plaintext
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights and outputs
+*.pth
+*.pdf
+
+# Dataset files
+sms_spam_collection.zip
+sms_spam_collection/
+
+# Python environment
+env/
+venv/
+*.env
+
+# Model checkpoints
+checkpoints/
+gpt2/
+*.ckpt
+gpt2/**/model.ckpt.data*
+gpt2/**/model.ckpt.index
+gpt2/**/model.ckpt.meta
